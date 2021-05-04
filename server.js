@@ -15,7 +15,7 @@ app.get('/',(req,res)=>{
 
 })
 app.get('/greeting', (req, res) => {
-    res.send({ hi: 'there' })
+    res.send({ hi: 'just check' })
 })
 app.get('/login', (req, res) => {
     res.send({ userLogin: 'tried to login' })
